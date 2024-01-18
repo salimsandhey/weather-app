@@ -1,0 +1,147 @@
+.card{
+    background-color: #cdd1fe;
+    height: 500px;
+    width: 25%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+*{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: rgba(12, 12, 12, 0.897);
+}
+.header{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+.header h2{
+    margin-top: 1px;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: -1px;
+    
+}
+.location{
+    display: flex;
+    margin-top: 7px;
+}
+.input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #4e3af6;
+    width: 180px;
+    display: none;
+    margin-top: 10px;
+    color: #4e3af6;
+}
+input::placeholder{
+    color: #4e3af6;
+    font-size: 20px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #4e3af6;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    transition: 0.5s;
+
+}
+.material-symbols-outlined{
+    color: #4e3af6;
+    font-variation-settings: 'wght' 600, 'opsz' 12;
+    font-size: 25px;
+}
+.date-div{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    margin-top: 10px;
+    gap: 3px;
+}
+
+.temp{
+    font-size: 130px;
+    margin: 0px;
+}
+img{
+    position: absolute;
+    top: 140px;
+    left: 137px;
+}
+.desc{
+    margin-right: 100px;
+    margin-top: -10px;
+}
+.footer{
+    display: flex;
+    margin-top: 100px;
+    width: 80%;
+    height: 60px;
+    margin-left: auto;
+    margin-right:auto ;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 100px;
+}
+.footer span,p{
+    margin: 2px;
+}
+.wind-speed,.humidity,.visibility{
+    color: #4e3af6;
+    font-weight: 500;
+    font-size: 17px;
+}
+.text{
+    font-size: 12px;
+    color: #4e3af6;
+    font-weight: 300;
+}
+.search{
+    display: none;
+}
+.close{
+    display: none;
+}
+.search-active{
+    height: 30px;
+    width: 60px;
+    padding-top: 5px;
+    margin-top: -5px;
+    background-color: #4e3af6;
+    color: white;
+    border-radius: 25px;
+}
+.dim{
+    opacity: 100%;
+}
+@media only screen and (max-width:590px) {
+    .card{
+        height: 100%;
+        width: 100%;  
+        border: none;
+    }
+    body{
+        background-color: #cdd1fe;
+    }
+}

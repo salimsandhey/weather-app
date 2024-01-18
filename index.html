@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <div class="header main-color">
+            <button class="menu"><i class="fa-solid fa-bars"></i></button>
+            <div>
+                <div class="location">
+                    <span class="material-symbols-outlined">location_on</span>
+                    <h2 class="city">
+                        Malerkotla
+                    </h2>
+                </div>
+                <input type="text" class="input" placeholder="Enter city">
+            </div>
+            <button class="add"><i class="fa-solid fa-plus"></i></button>
+            <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="date-div main-color dim">
+            <p class="day">
+                Monday
+            </p>
+            <p class="date">
+                1
+            </p>
+            <p class="month">
+                january
+            </p>
+            <p class="time">
+                9:00
+            </p>
+        </div>
+        <div class="body dim">
+            <h1 class="temp gradient-text">
+                22°
+            </h1>
+            <h2 class="desc gradient-text">
+                Cloudy
+            </h2>
+            <img src="images/clouds.png" class="image">
+        </div>
+        <div class="footer dim">
+            <div>
+                <span class="material-symbols-outlined">
+                    visibility
+                </span>
+                <p class="visibility">10%</p>
+                <p class="text">Visibility</p>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    water_drop
+                </span>
+                <p class="humidity">29%</p>
+                <p class="text">Humidity</p>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    airwave
+                </span>
+                <p class="wind-speed">35Km/H</p>
+                <p class="text">Wind Speed</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/e6413f3608.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

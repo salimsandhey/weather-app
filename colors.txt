@@ -1,0 +1,4 @@
+/*background color for box*/
+background: rgb(122,107,248);
+background: linear-gradient(121deg, rgba(122,107,248,1) 33%, rgba(113,143,217,1) 63%, rgba(122,107,248,1) 96%);
+

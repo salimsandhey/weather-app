@@ -1,0 +1,8 @@
+.gradient-text{
+    background: -webkit-linear-gradient(60deg, rgba(122,107,248,1) 0%, rgba(78,58,246,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-color{
+    color: #4e3af6;
+}
